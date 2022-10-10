@@ -1,0 +1,32 @@
+{
+  "name": "@requestly/modify-headers-mv3-poc",
+  "version": "1.0.0",
+  "description": "POC to modify headers using Manifest V3",
+  "homepage": "https://requestly.io",
+  "scripts": {
+    "build": "rm -rf build && rollup -c",
+    "watch": "rm -rf build && rollup -cw",
+    "zip": "npm run build && rm -rf dist && node scripts/createZip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/requestly/modify-headers-mv3-poc.git"
+  },
+  "author": {
+    "name": "Requestly",
+    "email": "contact@requestly.io",
+    "url": "https://requestly.io/"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/chrome": "^0.0.197",
+    "archiver": "^5.3.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}
