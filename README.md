@@ -1,7 +1,6 @@
-# POC to modify headers using Manifest V3
+# Modify request & response headers (Chrome Extension Manifest V3) | POC
 
 This Chrome extension will add request header and response header to few network requests triggered in sample website: https://testheaders.com.
-
 
 ## Test environment
 Website: https://testheaders.com
@@ -24,7 +23,7 @@ There are 2 buttons:
 
 ```sh
 git clone git@github.com:requestly/modify-headers-mv3-poc.git
-cd modify-headers-mv3-poc
+cd modify-headers-manifest-v3
 ```
 
 ### Install dependencies:
