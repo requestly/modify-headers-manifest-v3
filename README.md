@@ -20,30 +20,37 @@ There are 2 buttons:
 
 ## Solution via Extension
 
-### Install
+### Clone this project:
+
+```sh
+git clone git@github.com:requestly/modify-headers-mv3-poc.git
+cd modify-headers-mv3-poc
+```
+
+### Install dependencies:
 
 ```sh
 npm install
 ```
 
-### Add rules
+### Add rules:
 Edit `src/rules.ts` to define headers modifications.
 
-### Build
+### Build:
 
 ```sh
 npm run build
 ```
 
-### Load extension in browser
+### Load extension in browser:
 
 1. Open chrome://extensions/ in Chrome.
 2. Enable `Developer mode`.
 3. Click `Load unpacked`.
 4. Select `build` folder in this project.
 
-### Test
+### Test:
 
 1. Open https://testheaders.com.
 2. Click `Show Request Headers` and should see `x-test-request-header=test-value` in table.
-3. Click `Show Response Headers` and show see `x-test-response-header=test-value` in table.
+3. Click `Show Response Headers` and should see `x-test-response-header=test-value` in table.
