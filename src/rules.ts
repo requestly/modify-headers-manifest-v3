@@ -1,6 +1,6 @@
 const allResourceTypes = Object.values(chrome.declarativeNetRequest.ResourceType);
 
-export default [
+const rules: chrome.declarativeNetRequest.Rule[] = [
   {
     id: 1,
     priority: 1,
@@ -38,3 +38,5 @@ export default [
     }
   },
 ];
+
+export default rules;
