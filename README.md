@@ -1,4 +1,4 @@
-# Modify request & response headers (Chrome Extension Manifest V3) | POC
+# Modify request & response headers (Chrome Extension Manifest V3)
 
 This Chrome extension will add request header and response header to few network requests triggered in sample website: https://testheaders.com.
 
@@ -53,3 +53,9 @@ npm run build
 1. Open https://testheaders.com.
 2. Click `Show Request Headers` and should see `x-test-request-header=test-value` in table.
 3. Click `Show Response Headers` and should see `x-test-response-header=test-value` in table.
+
+## Using Requestly Chrome/Firefox Extension
+
+If you are looking for an existing solution to modify Request & Response headers, you can use Free [Requesly Chrome & Firefox extension](https://requestly.io). Here's a screenshot of Modify headers rule
+
+![image](https://user-images.githubusercontent.com/3108399/194862734-2b34b682-fc69-4090-9cdd-39e061c65eed.png)
