@@ -56,6 +56,6 @@ npm run build
 
 ## Using Requestly Chrome/Firefox Extension
 
-If you are looking for an existing solution to modify Request & Response headers, you can use Free [Requesly Chrome & Firefox extension](https://requestly.io). Here's a screenshot of Modify headers rule
+If you are looking for an existing solution to modify Request & Response headers, you can use Free [Requestly Chrome & Firefox extension](https://requestly.io). Here's a screenshot of Modify headers rule:
 
 ![image](https://user-images.githubusercontent.com/3108399/194862734-2b34b682-fc69-4090-9cdd-39e061c65eed.png)
